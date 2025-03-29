@@ -1,6 +1,8 @@
 # VitePress Online Editor
 一个基于 VitePress 的在线 Markdown 编辑器集成，让你可以直接在浏览器中编写和发布文章。
-![https://github.com/cubeyu/vitepress-online-editor/blob/main/zs.png]
+
+![VitePress Online Editor 预览](https://raw.githubusercontent.com/cubeyu/vitepress-online-editor/main/zs.png)
+
 ## 特性
 
 - 📝 在线 Markdown 编辑
