@@ -1,0 +1,37 @@
+:root {
+  --vp-c-brand: #3eaf7c;
+  --vp-c-brand-light: #4abf8a;
+  --vp-c-brand-lighter: #5ccf99;
+  --vp-c-brand-dark: #369f6b;
+  --vp-c-brand-darker: #2e8f5f;
+}
+
+.editor {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.editor .md-editor {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.editor .md-editor-dark {
+  --md-bk-color: var(--vp-c-bg);
+}
+
+.dark .editor input {
+  color: var(--vp-c-text-1);
+}
+
+.dark .editor button {
+  color: var(--vp-c-text-1);
+  border-color: var(--vp-c-divider);
+}
+
+.editor button:hover {
+  color: var(--vp-c-brand);
+  border-color: var(--vp-c-brand);
+} 
